@@ -19,6 +19,5 @@ Built with a focus on clean code, performance, and a minimalist aesthetic, this 
 * **Optimized Performance:** Fast load times using efficient React patterns and Tailwind's JIT engine.
 * **Modern UI/UX:** Smooth transitions and accessible icons for an enhanced user experience.
 
-
-
+## Clone Repo
 

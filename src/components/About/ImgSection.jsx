@@ -7,7 +7,7 @@ const ImgSection = () => {
         <div className="absolute -inset-1 bg-linear-to-b from-violet-600 to-teal-400 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
         <div className="relative w-full h-full">
           <img
-            src="/src/assets/hero.jpg"
+            src="/hero.jpg"
             alt="Hero"
             className="w-full h-full object-cover rounded-2xl"
           />

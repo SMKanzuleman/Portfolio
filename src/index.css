@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-Outfit: "Outfit", sans-serif;
+  --font-Inter: "Inter", sans-serif;
+  --color-dark-bg: #050510; /* Deep space background */
+  --color-dark-card: #0d0d1f; /* Card background */
+  --color-primary: #2e1065; /* Main Purple */
+  --color-primary-light: #a78bfa; /* Glow Purple */
+  --color-accent: #2dd4bf; /* MERN Teal */
+  --color-text-main: #ffffff; /* Headings */
+  --color-text-dim: #94a3b8; /* Descriptions */
+  --color-bg: #0a0514;
+  --color-accent: #6c2bee;
+  --color-bg1: #1a1220;
+  --color-bg2: #0f0a15;
+  --color-bg3: #0a050e;
+  --color-acctxt: 
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(5px) rotate(15deg);
+  }
+}
+
+@keyframes float-fast {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-5deg);
+  }
+}
+@keyframes float-breath {
+  0%,
+  100% {
+    transform: scale(1);
+    shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  }
+  50% {
+    transform: scale(1);
+    shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.animate-float-breath {
+  animation: float-breath 5s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-float-fast {
+  animation: float-fast 4s ease-in-out infinite;
+}
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}

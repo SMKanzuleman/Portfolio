@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Home - Syed KanzulEman Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#6c2bee",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#161022",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .grid-pattern {
+            background-image: radial-gradient(circle at 1px 1px, rgba(108, 43, 238, 0.1) 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #2dd4bf, #6c2bee);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased overflow-x-hidden">
+<div class="relative min-h-screen flex flex-col">
+<!-- Grid Background Overlay -->
+<div class="absolute inset-0 grid-pattern pointer-events-none opacity-50"></div>
+<!-- Navigation -->
+<header class="relative z-10 border-b border-primary/10 px-6 py-4 lg:px-20">
+<nav class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="bg-primary p-1.5 rounded-lg text-white">
+<span class="material-symbols-outlined text-2xl">terminal</span>
+</div>
+<span class="text-xl font-bold tracking-tight">KanzulEman</span>
+</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Projects</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Skills</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-xl text-sm font-bold transition-all transform hover:scale-105">
+                    Hire Me
+                </button>
+</nav>
+</header>
+<!-- Hero Section -->
+<main class="relative z-10 flex-grow flex items-center px-6 lg:px-20 py-20">
+<div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+<!-- Content -->
+<div class="space-y-8">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+                        Available for Projects
+                    </div>
+<div class="space-y-4">
+<h1 class="text-5xl lg:text-7xl font-black leading-[1.1] tracking-tight">
+                            Building the Future with <span class="text-gradient">MERN</span>
+</h1>
+<h2 class="text-4xl lg:text-6xl font-black text-slate-400 dark:text-slate-600">
+                            Syed KanzulEman
+                        </h2>
+</div>
+<p class="text-lg lg:text-xl text-slate-600 dark:text-slate-400 max-w-xl leading-relaxed">
+                        A teenage Full-Stack Developer crafting high-performance, tech-forward web applications. I transform complex problems into sleek digital experiences using MongoDB, Express, React, and Node.js.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary hover:shadow-[0_0_20px_rgba(108,43,238,0.4)] text-white px-8 py-4 rounded-xl font-bold transition-all flex items-center gap-2">
+                            Get in Touch
+                            <span class="material-symbols-outlined text-xl">send</span>
+</button>
+<button class="bg-primary/5 hover:bg-primary/10 border border-primary/20 text-slate-900 dark:text-white px-8 py-4 rounded-xl font-bold transition-all">
+                            View Projects
+                        </button>
+</div>
+<!-- Tech Badges -->
+<div class="pt-8 border-t border-primary/10">
+<p class="text-xs font-bold text-slate-500 uppercase tracking-[0.2em] mb-4">Mastering the Stack</p>
+<div class="flex flex-wrap gap-6 items-center">
+<div class="flex items-center gap-2 text-slate-600 dark:text-slate-400">
+<span class="material-symbols-outlined text-primary">database</span>
+<span class="text-sm font-medium">MongoDB</span>
+</div>
+<div class="flex items-center gap-2 text-slate-600 dark:text-slate-400">
+<span class="material-symbols-outlined text-primary">bolt</span>
+<span class="text-sm font-medium">Express.js</span>
+</div>
+<div class="flex items-center gap-2 text-slate-600 dark:text-slate-400">
+<span class="material-symbols-outlined text-primary">deployed_code</span>
+<span class="text-sm font-medium">React</span>
+</div>
+<div class="flex items-center gap-2 text-slate-600 dark:text-slate-400">
+<span class="material-symbols-outlined text-primary">memory</span>
+<span class="text-sm font-medium">Node.js</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Visual Element -->
+<div class="relative hidden lg:block">
+<div class="absolute -inset-4 bg-primary/20 blur-3xl rounded-full opacity-30"></div>
+<div class="relative bg-background-light dark:bg-background-dark/50 border border-primary/20 rounded-xl p-8 shadow-2xl backdrop-blur-sm">
+<!-- Code Mockup Interface -->
+<div class="flex items-center gap-2 mb-6">
+<div class="size-3 rounded-full bg-red-500/50"></div>
+<div class="size-3 rounded-full bg-yellow-500/50"></div>
+<div class="size-3 rounded-full bg-green-500/50"></div>
+</div>
+<div class="space-y-3 font-mono text-sm leading-relaxed">
+<div class="flex gap-4">
+<span class="text-primary/50">01</span>
+<span class="text-teal-400">const</span>
+<span class="text-slate-100">developer = {</span>
+</div>
+<div class="flex gap-4">
+<span class="text-primary/50">02</span>
+<span class="ml-4 text-slate-100">name: <span class="text-primary">'Syed KanzulEman'</span>,</span>
+</div>
+<div class="flex gap-4">
+<span class="text-primary/50">03</span>
+<span class="ml-4 text-slate-100">role: <span class="text-primary">'MERN Stack'</span>,</span>
+</div>
+<div class="flex gap-4">
+<span class="text-primary/50">04</span>
+<span class="ml-4 text-slate-100">passion: <span class="text-primary">'Next-Gen Web UI'</span>,</span>
+</div>
+<div class="flex gap-4">
+<span class="text-primary/50">05</span>
+<span class="ml-4 text-slate-100">status: <span class="text-primary">'Building Tomorrow'</span></span>
+</div>
+<div class="flex gap-4">
+<span class="text-primary/50">06</span>
+<span class="text-slate-100">};</span>
+</div>
+</div>
+<!-- Floating Tech Icon Cards -->
+<div class="absolute -top-10 -right-10 bg-background-dark border border-primary/20 p-4 rounded-xl shadow-xl flex items-center gap-3">
+<div class="bg-primary/20 p-2 rounded-lg">
+<span class="material-symbols-outlined text-primary">layers</span>
+</div>
+<div>
+<p class="text-xs font-bold">Stack Optimized</p>
+<p class="text-[10px] text-slate-500 uppercase tracking-tighter">Full Efficiency</p>
+</div>
+</div>
+<div class="absolute -bottom-6 -left-10 bg-background-dark border border-primary/20 p-4 rounded-xl shadow-xl flex items-center gap-3">
+<div class="bg-teal-500/20 p-2 rounded-lg">
+<span class="material-symbols-outlined text-teal-400">speed</span>
+</div>
+<div>
+<p class="text-xs font-bold">Performance First</p>
+<p class="text-[10px] text-slate-500 uppercase tracking-tighter">99+ Lighthouse</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Stats Section (Subtle) -->
+<section class="relative z-10 py-12 px-6 lg:px-20 bg-primary/5 border-t border-primary/10">
+<div class="max-w-7xl mx-auto flex flex-wrap justify-between gap-8">
+<div class="flex flex-col">
+<span class="text-3xl font-black text-primary">50+</span>
+<span class="text-sm font-medium text-slate-500 uppercase tracking-widest">Projects Completed</span>
+</div>
+<div class="flex flex-col">
+<span class="text-3xl font-black text-primary">15+</span>
+<span class="text-sm font-medium text-slate-500 uppercase tracking-widest">Tech Certifications</span>
+</div>
+<div class="flex flex-col">
+<span class="text-3xl font-black text-primary">3+</span>
+<span class="text-sm font-medium text-slate-500 uppercase tracking-widest">Years Experience</span>
+</div>
+<div class="flex flex-col">
+<span class="text-3xl font-black text-primary">100%</span>
+<span class="text-sm font-medium text-slate-500 uppercase tracking-widest">Client Satisfaction</span>
+</div>
+</div>
+</section>
+<!-- Skill Cards Preview -->
+<section class="relative z-10 py-24 px-6 lg:px-20">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col items-center text-center mb-16 space-y-4">
+<h2 class="text-4xl font-black tracking-tight">Technical Mastery</h2>
+<p class="text-slate-500 max-w-lg">Leveraging modern tools to build robust and scalable web applications from scratch.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- MongoDB Card -->
+<div class="group bg-primary/5 hover:bg-primary/10 border border-primary/10 p-8 rounded-xl transition-all duration-300 transform hover:-translate-y-2">
+<div class="text-primary mb-6 transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-4xl">database</span>
+</div>
+<h3 class="text-xl font-bold mb-2">MongoDB</h3>
+<p class="text-sm text-slate-500 leading-relaxed">NoSQL data management for flexible, scalable application architectures.</p>
+</div>
+<!-- Express Card -->
+<div class="group bg-primary/5 hover:bg-primary/10 border border-primary/10 p-8 rounded-xl transition-all duration-300 transform hover:-translate-y-2">
+<div class="text-primary mb-6 transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-4xl">settings_ethernet</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Express.js</h3>
+<p class="text-sm text-slate-500 leading-relaxed">Fast, unopinionated, minimalist web framework for Node.js backends.</p>
+</div>
+<!-- React Card -->
+<div class="group bg-primary/5 hover:bg-primary/10 border border-primary/10 p-8 rounded-xl transition-all duration-300 transform hover:-translate-y-2">
+<div class="text-primary mb-6 transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-4xl">dynamic_form</span>
+</div>
+<h3 class="text-xl font-bold mb-2">React</h3>
+<p class="text-sm text-slate-500 leading-relaxed">Crafting dynamic, responsive interfaces with modular component logic.</p>
+</div>
+<!-- Node Card -->
+<div class="group bg-primary/5 hover:bg-primary/10 border border-primary/10 p-8 rounded-xl transition-all duration-300 transform hover:-translate-y-2">
+<div class="text-primary mb-6 transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-4xl">javascript</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Node.js</h3>
+<p class="text-sm text-slate-500 leading-relaxed">Powerful server-side runtime for high-performance network applications.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="relative z-10 mt-auto border-t border-primary/10 py-12 px-6 lg:px-20 text-center">
+<p class="text-sm text-slate-500 font-medium">
+                © 2024 Syed KanzulEman. Handcrafted with passion and the MERN stack.
+            </p>
+</footer>
+</div>
+</body></html>

@@ -13,16 +13,16 @@ function App() {
     <div className="bg-[#0a0a0a] h-screen text-white">
       <Navbar className="fixed top-0 z-50" />
       <HeroSection />
-      <section id="about">
+      <section id="about" className="scroll-m-30">
         <About />
       </section>
-      <section id="myskills">
+      <section id="myskills" className="scroll-m-30">
         <MySkills />
       </section>
-      <section id="projects">
+      <section id="projects" className="scroll-m-30">
         <Project />
       </section>
-      <section id="contact">
+      <section id="contact" className="scroll-m-30">
         <Contact />
       </section>
       <Footer />

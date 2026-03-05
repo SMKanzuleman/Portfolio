@@ -1,6 +1,7 @@
 import { Code2, Cpu, Globe, Zap } from "lucide-react"; 
 import { FaGithub, FaReact, FaJs } from "react-icons/fa";
 import { IoSparkles } from "react-icons/io5";
+import heroImg from "../../assets/hero.jpg";
 
 
 const HeroRightSection = () => {
@@ -23,7 +24,7 @@ const HeroRightSection = () => {
         <div className="absolute -inset-1 bg-linear-to-b from-violet-600 to-teal-400 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
         <div className="relative w-full h-full bg-[#0d071a] border border-white/10 rounded-2xl overflow-hidden">
           <img
-            src="/src/assets/hero.jpg"
+            src={heroImg}
             alt="Hero"
             className="w-full h-full object-cover"
           />

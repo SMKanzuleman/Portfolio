@@ -7,6 +7,7 @@ import SkillsContainer from './SkillsContainer';
 const MySkills = () => {
   return (
     <Background height={80}>
+      <div className='mt-10'></div>
       <Heading data={"My Skills"} />
       <SkillsContainer />
     </Background>

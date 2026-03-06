@@ -3,9 +3,11 @@ import Background from '../Global/Background'
 
 const Footer = () => {
   return (
+    <div className="h-20">
       <Background>
-        <p className='tracking-wider text-s py-2'>Made With ❤️ by KanzulEman</p>
+        <p className="tracking-widest text-s py-2 font-mono lg:pt-10">Made With ❤️ by KanzulEman</p>
       </Background>
+    </div>
   );
 }
 

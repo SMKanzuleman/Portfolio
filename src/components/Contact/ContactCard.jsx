@@ -12,7 +12,7 @@ const ContactCard = ({ icon: Icon, title, content, link }) => {
   };
 
   return (
-    <div className="w-full max-w-112.5 relative flex items-center justify-between gap-4 bg-linear-to-br from-bg1 via-bg2 to-bg3 rounded-2xl p-4 border border-purple-900/30">
+    <div className="w-80 lg:w-full max-w-112.5 relative flex items-center justify-between gap-4 bg-linear-to-br from-bg1 via-bg2 to-bg3 rounded-2xl p-4 border border-purple-900/30">
       <div className="flex items-center gap-5 overflow-hidden">
         <div className="bg-purple-700/10 rounded-xl p-3 border border-purple-500/20 shrink-0">
           <Icon size={20} className="text-purple-400" />

@@ -5,7 +5,7 @@ import Background from "../Global/Background";
 
 const HeroSection = () => {
   return (
-    <Background height={100}>
+    <Background height={120}>
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         <div
           className="absolute -top-[10%] -left-[10%] w-[70%] h-[70%] rounded-full"
@@ -32,11 +32,11 @@ const HeroSection = () => {
           }}
         />
       </div>
-      <div className="relative z-50 flex w-full h-full pl-28">
-        <div className="w-[45%] h-full flex flex-col items-start justify-center gap-3">
+      <div className="relative z-50 flex w-full h-full flex-col lg:pl-28 lg:flex-row md:flex-row ">
+        <div className="w-full lg:w-[45%] md:w-[50%] h-full flex flex-col items-start justify-center gap-3">
           <HeroLeftSection />
         </div>
-        <div className="w-[55%] h-full flex justify-center items-center">
+        <div className="w-full lg:w-[55%] md:w-[50%] h-[40%] lg:h-full flex justify-center lg:items-center ">
           <HeroRightSection />
         </div>
       </div>

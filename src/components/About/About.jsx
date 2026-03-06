@@ -7,12 +7,14 @@ import Background from "../Global/Background";
 
 const About = () => {
   return (
-    <Background height={70}>
-      <div className="w-full h-full flex gap-10">
-        <ImgSection />
-        <IntoSection />
-      </div>
-    </Background>
+    <div className="w-full lg:w-full md:w-full  md:h-[60vh] lg:h-[70vh]">
+      <Background>
+        <div className="w-full h-full flex lg:flex-row flex-col gap-10">
+          <ImgSection />
+          <IntoSection />
+        </div>
+      </Background>
+    </div>
   );
 };
 

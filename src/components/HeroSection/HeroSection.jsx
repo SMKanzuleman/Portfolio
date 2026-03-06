@@ -5,7 +5,8 @@ import Background from "../Global/Background";
 
 const HeroSection = () => {
   return (
-    <Background height={120}>
+    <div className="w-full md:w-full lg:w-full lg:h-screen h-[110vh] ">
+      <Background height={120}>
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         <div
           className="absolute -top-[10%] -left-[10%] w-[70%] h-[70%] rounded-full"
@@ -41,6 +42,8 @@ const HeroSection = () => {
         </div>
       </div>
     </Background>
+
+    </div>
   );
 };
 

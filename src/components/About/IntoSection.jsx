@@ -3,11 +3,11 @@ import Heading from '../Global/Heading'
 
 const IntoSection = () => {
   return (
-    <div className=" w-[55%] h-full flex flex-col items-center justify-center pr-20 selection:bg-yellow-600">
-      <div className='flex justify-center'>
+    <div className=" w-full lg:w-[55%] h-full flex flex-col items-center justify-center px-7 lg:pr-20 selection:bg-yellow-600 mb-0 ">
+      <div className='flex justify-center mt-15'>
       <Heading data="About Me" mb='20'/>
       </div>
-      <p className="text-justify leading-relaxed font-Inter ">
+      <p className="text-justify leading-normle lg:leading-relaxed font-Inter ">
         I’m Kanzuleman, a developer focused on building functional web
         applications using the MERN stack. My work centers on writing clean,
         maintainable code and understanding how data flows from the{" "}

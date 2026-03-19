@@ -60,6 +60,20 @@
     shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
   }
 }
+@keyframes typing {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: white; }
+}
+.animate-typing {
+  animation: typing 2s steps(20) forwards;
+}
+.animate-blink {
+  animation: blink 1s infinite;
+}
 
 .animate-float-breath {
   animation: float-breath 5s ease-in-out infinite;

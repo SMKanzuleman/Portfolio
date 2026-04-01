@@ -15,6 +15,14 @@ const Project = () => {
           liveLink="https://calage-kabidn9kq-smkanzulemans-projects.vercel.app/"
           githubLink="https://github.com/SMKanzuleman/AgeCalculator"
         />
+        <ProjectCard
+          title="Todo App"
+          description="A simple Todo app with Cloud storage MongoDB."
+          technologies={["React", "TailwindCSS", "JavaScript"]}
+          image={"./todo.png"}
+          liveLink="https://todo-frontend-plum-kappa.vercel.app/"
+          githubLink="https://github.com/SMKanzuleman/Todo"
+        />
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />

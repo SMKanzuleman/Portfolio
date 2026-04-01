@@ -44,6 +44,8 @@ const ProjectCard = ({
         <div className="flex gap-3 mt-5 pt-4 border-t border-purple-900/20">
           <a
             href={liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex-1 flex items-center justify-center gap-2 py-2 rounded-xl bg-linear-to-r from-purple-600/20 to-purple-600/10 hover:from-purple-600/40 hover:to-purple-600/30 text-purple-300 font-Inter font-semibold text-sm transition duration-300 border border-purple-700/30 hover:border-purple-600/60"
           >
             <ExternalLink size={16} />

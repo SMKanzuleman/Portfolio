@@ -25,7 +25,7 @@ const Project = () => {
         />
         <ProjectCard />
         <ProjectCard />
-        <ProjectCard />
+
       </div>
     </Background>
   );

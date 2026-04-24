@@ -4,6 +4,15 @@ import { FaGithub, FaReact, FaJs } from "react-icons/fa";
 import Gbtn from '../Global/Gbtn';
 
 const HeroLeftSection = () => {
+
+  const downloadResume=()=>{
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'; // Path to your resume file
+    link.download = 'resume.pdf'; // Name of the file to download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
   return (
     <div className="w-full h-[50vh] mt-25 px-8 flex flex-col justify-center lg:gap-2 gap-3">
       <h3 className="font-Inter text-2xl font-bold pl-3 -mb-1 tracking-widest">
@@ -32,7 +41,7 @@ const HeroLeftSection = () => {
         </p>
       </div>
       <div className="flex gap-3 lg:mt-3 mt-5">
-        <Gbtn data="Resume" url="#" />
+        <Gbtn data="Resume" url="" onClick={downloadResume} />
         <Gbtn data="Book Call" url="#" />
       </div>
     </div>
